@@ -3,6 +3,7 @@ import TheameTogle from './Components/TheameTogle'
 import Background from './Components/Background'
 import { Navbar } from './Components/Navbar'
 import HeroSection from './Components/HeroSection'
+import AboutMe from './Components/AboutMe'
 
 function Home() {
   return (
@@ -20,7 +21,7 @@ function Home() {
     {/* main contect  */}
     <main>
         <HeroSection></HeroSection>
-
+        <AboutMe></AboutMe>
 
     </main>
 
