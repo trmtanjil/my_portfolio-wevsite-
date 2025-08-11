@@ -5,6 +5,7 @@ import { Navbar } from './Components/Navbar'
 import HeroSection from './Components/HeroSection'
 import AboutMe from './Components/AboutMe'
 import SkillsSection from './Components/SkillsSection'
+import MyprojectSection from './Components/MyprojectSection'
 
 function Home() {
   return (
@@ -24,6 +25,7 @@ function Home() {
         <HeroSection></HeroSection>
         <AboutMe></AboutMe>
         <SkillsSection></SkillsSection>
+        <MyprojectSection></MyprojectSection>
 
     </main>
 

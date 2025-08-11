@@ -34,12 +34,15 @@ function AboutMe() {
                 Get In Touch
               </a>
 
-              <a
-                href=""
-                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
-              >
-                Download CV
-              </a>
+             <a
+  href="https://drive.google.com/uc?export=download&id=1zj9OF8KKztqnLkKAHwU_4IhhxOsUflz_"
+  className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+  download
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Download CV
+</a>
             </div>
           </div>
 
