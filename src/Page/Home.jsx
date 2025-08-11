@@ -4,6 +4,7 @@ import Background from './Components/Background'
 import { Navbar } from './Components/Navbar'
 import HeroSection from './Components/HeroSection'
 import AboutMe from './Components/AboutMe'
+import SkillsSection from './Components/SkillsSection'
 
 function Home() {
   return (
@@ -22,6 +23,7 @@ function Home() {
     <main>
         <HeroSection></HeroSection>
         <AboutMe></AboutMe>
+        <SkillsSection></SkillsSection>
 
     </main>
 
