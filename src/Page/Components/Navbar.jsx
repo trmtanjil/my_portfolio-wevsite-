@@ -2,6 +2,7 @@ import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+ 
 
 const navItems = [
   { name: "Home", href: "#hero" },
@@ -44,7 +45,7 @@ export const Navbar = () => {
       animate={{ y: 0 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
       className={cn(
-        "fixed w-full z-40 transition-all duration-300",
+        "fixed w-full z-40 transition-all duration-300 ",
         isScrolled ? "py-3 bg-background/90 backdrop-blur-md shadow-sm" : "py-5"
       )}
     >
@@ -62,7 +63,7 @@ export const Navbar = () => {
         </motion.a>
 
         {/* desktop nav */}
-        <div className="hidden md:flex space-x-8 mr-6">
+        <div className="hidden md:flex space-x-8 mr-8">
           {navItems.map((item) => (
             <motion.div 
               key={item.name}
@@ -99,11 +100,12 @@ export const Navbar = () => {
           className="md:hidden p-2 text-foreground z-50"
           aria-label={isMenuOpen ? "Close Menu" : "Open Menu"}
         >
-          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          {isMenuOpen ? <X className="mr-4" size={24} /> : <Menu className="mr-4" size={24} />}
         </motion.button>
 
         {/* mobile menu */}
         <AnimatePresence>
+          
           {isMenuOpen && (
             <motion.div
               initial={{ opacity: 0, y: -20 }}
