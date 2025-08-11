@@ -1,5 +1,7 @@
 import React from 'react'
 import TheameTogle from './Components/TheameTogle'
+import Background from './Components/Background'
+import { Navbar } from './Components/Navbar'
 
 function Home() {
   return (
@@ -9,8 +11,10 @@ function Home() {
     <TheameTogle></TheameTogle>
 
     {/* backgrund effects  */}
+    <Background></Background>
 
     {/* navbar  */}
+    <Navbar></Navbar>
 
     {/* main contect  */}
 
