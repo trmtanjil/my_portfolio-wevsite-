@@ -2,6 +2,7 @@ import React from 'react'
 import TheameTogle from './Components/TheameTogle'
 import Background from './Components/Background'
 import { Navbar } from './Components/Navbar'
+import HeroSection from './Components/HeroSection'
 
 function Home() {
   return (
@@ -17,9 +18,14 @@ function Home() {
     <Navbar></Navbar>
 
     {/* main contect  */}
+    <main>
+        <HeroSection></HeroSection>
+
+
+    </main>
 
     {/* footer  */}
-
+ 
     </div>
   )
 }
