@@ -31,7 +31,7 @@ function HeroSection() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex flex-col items-center justify-center px-4 overflow-hidden"
+      className="relative min-h-screen flex flex-col pt-16 md:1 items-center justify-center px-4 overflow-hidden"
     >
       {/* Background */}
       <div className="absolute inset-0 overflow-hidden z-0">
