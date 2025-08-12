@@ -11,7 +11,7 @@ const mylinks = [
 
 function Findme() {
   return (
-       <section id="findme" className="py-16  mx-auto flex justify-center items-center gap-[100px]">
+       <section id="findme" className="pb-8  mx-auto flex justify-center items-center gap-[100px]">
       <div className="max-w-5xl mx-auto px-8 text-center">
         <motion.h2 
           className="text-3xl font-bold mb-12"
