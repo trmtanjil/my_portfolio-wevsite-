@@ -7,6 +7,8 @@ import AboutMe from './Components/AboutMe'
 import SkillsSection from './Components/SkillsSection'
 import MyprojectSection from './Components/MyprojectSection'
 import Contacsection from './Components/Contacsection'
+import Findme from './Components/Findme'
+import { Footer } from './Components/Footer'
 
 function Home() {
   return (
@@ -27,12 +29,13 @@ function Home() {
         <AboutMe></AboutMe>
         <SkillsSection></SkillsSection>
         <MyprojectSection></MyprojectSection>
+        <Findme></Findme>
         <Contacsection></Contacsection>
 
     </main>
 
     {/* footer  */}
- 
+ <Footer></Footer>
     </div>
   )
 }

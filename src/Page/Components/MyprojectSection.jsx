@@ -6,7 +6,7 @@ const projects = [
     id: 1,
     title: " scholarship-hub",
     description: "This website is designed for students, where they can find, apply for, and track their applications to different national and international scholarships",
-    image: "/projects/project1.png",
+    image: "https://i.ibb.co.com/39XZGF08/Screenshot-62.png",
     tags: ["React", "TailwindCSS", "MongoDB","Stripe"],
     demoUrl: "https://scintillating-salmiakki-2da397.netlify.app/",
     githubUrl: "https://github.com/trmtanjil/scholarship-hub#",
@@ -16,7 +16,7 @@ const projects = [
     title: "Tutor Finder web  ",
     description:
       "A streamlined Tutor Finder web application built with React and Tailwind CSS. Helps students connect with qualified tutors based on subject, availability, and location",
-    image: "/projects/project2.png",
+    image: "https://i.ibb.co.com/G45q8zdK/Screenshot-74.png",
     tags: ["React", "TailwindCSS", "MongoDB"],
     demoUrl: "https://effortless-froyo-5b0e47.netlify.app/",
     githubUrl: "https://github.com/trmtanjil/tutor-hub-clind",
@@ -26,7 +26,7 @@ const projects = [
     title: "E-commerce Platform",
     description:
       "Roomet Finder is a user-friendly web application that helps individuals find compatible roommates based on location, budget, and preferences",
-    image: "/projects/project3.png",
+    image: "https://i.ibb.co.com/q39n7kg7/Screenshot-75.png",
     tags: ["React", "TailwindCSS", "MongoDB"],
     demoUrl: "#https://precious-hotteok-ea707d.netlify.app/",
     githubUrl: "https://github.com/trmtanjil/rommet-finder-clind",
