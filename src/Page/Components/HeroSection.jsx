@@ -39,47 +39,9 @@ function HeroSection() {
         <div className="absolute bottom-1/3 right-1/4 w-40 h-40 rounded-full bg-purple-500/20 blur-3xl animate-float-delay" />
       </div>
 
-      <div className="container max-w-4xl mx-auto text-center z-10 flex flex-col md:flex-row items-center justify-center gap-12">
+      <div className="container max-w-5xl mx-auto text-center z-10 flex flex-col md:flex-row items-center justify-center gap-12">
         
-        {/* Professional photo with tilt */}
-    <motion.div
-  initial={{ opacity: 0, scale: 0.8 }}
-  animate={{ opacity: 1, scale: 1 }}
-  transition={{ duration: 0.7, delay: 0.4 }}
-  style={{
-    rotateX: rotateX,
-    rotateY: rotateY,
-    transformStyle: "preserve-3d",
-  }}
-  onMouseMove={handleMouseMove}
-  onMouseEnter={() => setIsHovering(true)}
-  onMouseLeave={handleMouseLeave}
-  className="relative w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-primary/30 shadow-[0_0_20px_rgba(0,255,255,0.6)] cursor-pointer"
->
-  <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent rounded-full" />
-  
-  <img
-    src="https://i.ibb.co.com/r219bmrg/472793938-525303010521312-3168934761762375498-n.jpg"
-    alt="Tanjilur Rahman"
-    className="w-full h-full object-cover object-center"
-    style={{ transform: "translateZ(20px)" }}
-  />
 
-  {/* Border animation */}
-  <motion.div
-    className="absolute inset-0 rounded-full border-4 border-primary/30 pointer-events-none"
-    animate={{
-      scale: [1, 1.05, 1],
-      opacity: [0.3, 0.6, 0.3],
-      borderWidth: ["4px", "6px", "4px"],
-    }}
-    transition={{
-      duration: 3,
-      repeat: Infinity,
-      ease: "easeInOut",
-    }}
-  />
-</motion.div>
 
 
         {/* Text content */}
@@ -119,7 +81,7 @@ function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.6 }}
           >
-            Frontend Developer
+            MERN Stack Developer
           </motion.h2>
 
           {/* Introduction */}
@@ -149,7 +111,47 @@ function HeroSection() {
               View My Work
             </motion.a>
           </motion.div>
+          
         </div>
+                {/* Professional photo with tilt */}
+    <motion.div
+  initial={{ opacity: 0, scale: 0.8 }}
+  animate={{ opacity: 1, scale: 1 }}
+  transition={{ duration: 0.7, delay: 0.4 }}
+  style={{
+    rotateX: rotateX,
+    rotateY: rotateY,
+    transformStyle: "preserve-3d",
+  }}
+  onMouseMove={handleMouseMove}
+  onMouseEnter={() => setIsHovering(true)}
+  onMouseLeave={handleMouseLeave}
+  className="relative w-48 h-48 md:w-72 md:h-74 rounded-full overflow-hidden border-4 border-primary/30 shadow-[0_0_20px_rgba(0,255,255,0.6)] cursor-pointer"
+>
+  <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent rounded-full" />
+  
+  <img
+    src="https://i.ibb.co.com/r219bmrg/472793938-525303010521312-3168934761762375498-n.jpg"
+    alt="Tanjilur Rahman"
+    className="w-full h-full  object-cover object-center"
+    style={{ transform: "translateZ(20px)" }}
+  />
+
+  {/* Border animation */}
+  <motion.div
+    className="absolute inset-0 rounded-full border-4 border-primary/30 pointer-events-none"
+    animate={{
+      scale: [1, 1.05, 1],
+      opacity: [0.3, 0.6, 0.3],
+      borderWidth: ["4px", "6px", "4px"],
+    }}
+    transition={{
+      duration: 3,
+      repeat: Infinity,
+      ease: "easeInOut",
+    }}
+  />
+</motion.div>
       </div>
 
       {/* Scroll Indicator */}

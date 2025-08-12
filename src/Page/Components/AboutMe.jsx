@@ -20,12 +20,13 @@ function AboutMe() {
             <p className="text-muted-foreground">
              Hi, I’m Tanjilur Rahman — a passionate web developer with a strong focus on JavaScript and React. I love building clean, responsive, and user-friendly interfaces that provide a great user experience.
             </p>
-
+   <p className="text-xl font-semibold">
+    My  programming journey
+   </p>
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+            I started learning programming around January 16, 2024. My journey began with the motivation to explore new skills and build useful applications. Initially, I started with my first semester Python book, which gave me a strong foundation in programming logic and basic concepts.
+
+After that, I gradually learned web design using HTML and CSS, then moved on to mastering technologies like JavaScript and React. Currently, I am deeply interested in full-stack development and constantly working on new projects to improve my skills and build practical applications.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
