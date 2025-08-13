@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router";  // react-router-dom থেকে import করো
+import { BrowserRouter, Routes, Route } from "react-router";   
 import Home from "./Page/Home";
  
 function App() {
