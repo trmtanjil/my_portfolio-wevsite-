@@ -8,30 +8,42 @@ import {
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import Swal from "sweetalert2";
-import { useState } from "react";
+ 
 
 function Contacsection() {
-  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
 
-    setIsSubmitting(true);
+    const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
 
-    // এখানে আপনি চাইলে API কল করতে পারেন, এখন সিমুলেশন করার জন্য setTimeout দিলাম
-    setTimeout(() => {
-      Swal.fire({
+    formData.append("access_key", "b9563cb5-f125-4f7a-a23b-8a1809ae2520");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      },
+      body: json
+    }).then((res) => res.json());
+
+    if (res.success) {
+       Swal.fire({
         icon: "success",
         title: "Message sent!",
         text: "Thank you for your message. I'll get back to you soon.",
         showConfirmButton: false,
         timer: 2000,
       });
-
-      setIsSubmitting(false);
-      e.target.reset(); // ফর্ম ফিল্ড ক্লিয়ার করার জন্য
-    }, 1500);
+    }
   };
+ 
+
+   
 
   return (
     <section id="contact" className="py-24 px-4 relative bg-secondary/30">
@@ -114,7 +126,7 @@ function Contacsection() {
           <div className="bg-card p-8 rounded-lg shadow-xs">
             <h3 className="text-2xl font-semibold mb-6"> Send a Message</h3>
 
-            <form className="space-y-6" onSubmit={handleSubmit}>
+            <form className="space-y-6" onSubmit={onSubmit}>
               <div>
                 <label htmlFor="name" className="block text-sm font-medium mb-2">
                   Your Name
@@ -158,12 +170,12 @@ function Contacsection() {
 
               <button
                 type="submit"
-                disabled={isSubmitting}
+              
                 className={cn(
                   "cosmic-button w-full flex items-center justify-center gap-2"
                 )}
               >
-                {isSubmitting ? "Sending..." : "Send Message"}
+             
                 <Send size={16} />
               </button>
             </form>
