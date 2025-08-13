@@ -10,7 +10,7 @@ function MyEducation() {
     {
       title: "Diploma in CST",
       institution: "Narsingdi Government Polytechnic Institute",
-      details: "CST 5th Semester (Running)",
+      details: "CST 6th Semester (Running)",
     },
     {
       title: "HSC (2022-23)",
