@@ -151,7 +151,7 @@ function Contacsection() {
                   name="email"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-none focus:ring-2 focus:ring-primary"
-                  placeholder="trmtanjil02@gmail.com"
+                  placeholder="Your Email..." 
                 />
               </div>
 
