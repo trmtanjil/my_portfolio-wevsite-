@@ -156,29 +156,30 @@ function HeroSection() {
           </div>
         </div>
       </div>
-{/* Scroll Indicator */}
 <motion.div
   className="absolute left-1/2 transform -translate-x-1/2 flex flex-col items-center cursor-pointer
-             bottom-60 md:bottom-8" // mobile এ একটু উপরে bottom-20, desktop এ bottom-8
+             bottom-53 md:bottom-0 z-50"
   initial={{ opacity: 0, y: 20 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ delay: 1.2 }}
-  whileHover={{ scale: 1.1 }} // hover এ subtle enlarge effect
-  whileTap={{ scale: 0.95 }} // tap এ subtle shrink effect (mobile-friendly)
+  whileHover={{ scale: 1.1 }}
+  whileTap={{ scale: 0.95 }}
   onClick={() => {
     document.getElementById("projects")?.scrollIntoView({
       behavior: "smooth",
     });
   }}
 >
-  <span className="text-sm text-muted-foreground mb-2 md:text-base">Scroll</span>
+  <span className="text-sm md:text-base mb-2 px-4 py-1">Scroll</span>
   <motion.div
-    animate={{ y: [0, 12, 0] }} // smooth up-down float
+    className="p-2"
+    animate={{ y: [0, 12, 0] }}
     transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
   >
-    <ArrowDown className="h-6 w-6 md:h-5 md:w-5 text-primary" />
+    <ArrowDown className="h-8 w-8 md:h-5 md:w-5 text-primary"/>
   </motion.div>
 </motion.div>
+
 
 
     </section>
