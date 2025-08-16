@@ -52,7 +52,7 @@ function Contacsection() {
           Get In <span className="text-primary"> Touch</span>
         </h2>
 
-        <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+        <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto text-gray-300">
           Have a project in mind or want to collaborate? Feel free to reach out.
           I'm always open to discussing new opportunities.
         </p>
@@ -70,7 +70,7 @@ function Contacsection() {
                   <h4 className="font-medium"> Email</h4>
                   <a
                     href="mailto:hello@gmail.com"
-                    className="text-muted-foreground hover:text-primary transition-colors"
+                    className="text-muted-foreground hover:text-primary transition-colors text-gray-300"
                   >
                   trmtanjil02@gmail.com
                   </a>
@@ -85,7 +85,7 @@ function Contacsection() {
                   <h4 className="font-medium"> Phone</h4>
                   <a
                     href="tel:+11234567890"
-                    className="text-muted-foreground hover:text-primary transition-colors"
+                    className="text-muted-foreground hover:text-primary transition-colors text-gray-300"
                   >
                     +880 1867913057
                   </a>
@@ -98,7 +98,7 @@ function Contacsection() {
                 </div>
                 <div>
                   <h4 className="font-medium"> Location</h4>
-                  <p className="text-muted-foreground hover:text-primary transition-colors">
+                  <p className="text-muted-foreground hover:text-primary transition-colors text-gray-300">
                     Narsigndi, Dhaka, Bangladesh
                   </p>
                 </div>

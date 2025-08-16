@@ -36,7 +36,7 @@ export default function SkillsSection() {
           </div>
         </motion.h2>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-6  ">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-6 ">
           {skills.map((skill, index) => (
             <motion.div
               key={index}
@@ -53,7 +53,7 @@ export default function SkillsSection() {
               >
                 {/* Animated border */}
                 <motion.div
-                  className="absolute inset-0 rounded-lg overflow-hidden"
+                  className="absolute inset-0.5 rounded-lg overflow-hidden"
                   style={{
                     padding: '2px',
                     background: `conic-gradient(from 0deg, transparent, ${skill.color}, transparent)`,

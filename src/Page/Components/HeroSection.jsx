@@ -92,7 +92,7 @@ function HeroSection() {
 
   {/* Introduction */}
   <motion.p
-    className="text-lg md:text-xl text-muted-foreground max-w-xl text-gray-300"
+    className="text-lg md:text-xl text-muted-foreground w-[600px] max-w-xl text-gray-300"
     initial={{ opacity: 0, y: 20 }}
     animate={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.7, delay: 0.8 }}
