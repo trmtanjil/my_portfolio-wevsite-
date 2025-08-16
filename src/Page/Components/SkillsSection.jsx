@@ -18,8 +18,8 @@ const skills = [
 
 export default function SkillsSection() {
   return (
-    <section id="skills" className="py-16 ">
-      <div className="max-w-5xl mx-auto px-4 text-center">
+    <section id="skills"  >
+      <div className="  mx-auto px-4 text-center">
         <motion.h2 
           className="text-3xl font-bold mb-12"
           initial={{ opacity: 0, y: 20 }}
@@ -32,7 +32,7 @@ export default function SkillsSection() {
             <SkillsTitle></SkillsTitle>
           </div>
           <div className="text-xl font-normal w-[80%] mx-auto">
-            <p>These are the technologies and tools I use to design, develop, and deploy modern, high-performance web applications. From crafting responsive UI with React and Tailwind to building scalable backends with Express and MongoDB — this is my tech stack.</p>
+            <p className="text-gray-300">These are the technologies and tools I use to design, develop, and deploy modern, high-performance web applications. From crafting responsive UI with React and Tailwind to building scalable backends with Express and MongoDB — this is my tech stack.</p>
           </div>
         </motion.h2>
 
@@ -43,7 +43,7 @@ export default function SkillsSection() {
               className="relative flex flex-col items-center"
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.5, delay: index * 0.05 }}
+              transition={{ duration: 0.1, delay: index * 0.05 }}
               viewport={{ once: true, margin: "0px 0px -100px 0px" }}
             >
               {/* Skill card */}

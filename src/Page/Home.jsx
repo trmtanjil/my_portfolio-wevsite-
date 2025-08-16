@@ -1,6 +1,6 @@
 import React from 'react'
-import TheameTogle from './Components/TheameTogle'
-import Background from './Components/Background'
+ import Background from './Components/Background'
+  import TheameTogle from './Components/TheameTogle'
 import { Navbar } from './Components/Navbar'
 import HeroSection from './Components/HeroSection'
 import AboutMe from './Components/AboutMe'
@@ -10,13 +10,17 @@ import Contacsection from './Components/Contacsection'
 import Findme from './Components/Findme'
 import { Footer } from './Components/Footer'
 import MyEducation from './Components/MyEducation'
-
+ 
 function Home() {
   return (
-    <div className='min-h-screen bg-background text-foreground overflow-x-hidden '> 
+   <div>
+     <div className='min-h-screen bg-gradient-to-br from-[#17264a] via-[#111024] via-50%-[#4b4b7f] to-[#041945]
+ text-white text-foreground overflow-x-hidden '> 
 
     {/* theme toggle  */}
-    <TheameTogle></TheameTogle>
+   <div className='none'>
+      <TheameTogle ></TheameTogle>
+   </div>
 
     {/* backgrund effects  */}
     <Background></Background>
@@ -39,6 +43,7 @@ function Home() {
     {/* footer  */}
  <Footer></Footer>
     </div>
+   </div>
   )
 }
 

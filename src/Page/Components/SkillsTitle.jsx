@@ -49,7 +49,7 @@ export default function SkillsTitle() {
       <span className="blinking-cursor">_</span>
       <style>{`
         .blinking-cursor {
-          animation: blink 0.8s infinite;
+          animation: blink 0.9s infinite;
         }
         @keyframes blink {
           0%, 50% { opacity: 1; }
