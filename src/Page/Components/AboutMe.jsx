@@ -29,7 +29,7 @@ function AboutMe() {
 After that, I gradually learned web design using HTML and CSS, then moved on to mastering technologies like JavaScript and React. Currently, I am deeply interested in full-stack development and constantly working on new projects to improve my skills and build practical applications.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center text-center">
+            <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-start text-center ">
               <a href="#contact" className="cosmic-button">
                 {" "}
                 Get In Touch

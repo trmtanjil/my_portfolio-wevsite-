@@ -29,7 +29,7 @@ function HeroSection() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex flex-col  md:pt-24 items-center justify-center overflow-hidden bg-[url('/8e00e0cc-3be7-4b1f-96e5-b63ac2195fe5.png')] bg-cover bg-center pt-[90px]"
+      className="relative min-h-screen flex flex-col  md:pt-[10%] items-center justify-center overflow-hidden bg-[url('/8e00e0cc-3be7-4b1f-96e5-b63ac2195fe5.png')] bg-cover bg-center pt-[20%]"
     >
       {/* Background */}
       <div className="absolute inset-0 overflow-hidden z-0">
@@ -158,7 +158,7 @@ function HeroSection() {
       </div>
 <motion.div
   className="absolute left-1/2 transform -translate-x-1/2 flex flex-col items-center cursor-pointer
-             bottom-53 md:bottom-0 z-50"
+             bottom-[25%] md:bottom-0 z-50"
   initial={{ opacity: 0, y: 20 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ delay: 1.2 }}
