@@ -29,7 +29,7 @@ function HeroSection() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex flex-col  md:pt-[3%] items-center justify-center overflow-hidden bg-[url('/8e00e0cc-3be7-4b1f-96e5-b63ac2195fe5.png')] bg-cover bg-center pt-[20%]" 
+      className="relative min-h-screen flex flex-col  md:pt-[5%] items-center justify-center overflow-hidden bg-[url('/8e00e0cc-3be7-4b1f-96e5-b63ac2195fe5.png')] bg-cover bg-center pt-[20%]" 
     >
       {/* Background */}
       <div className="absolute inset-0 overflow-hidden z-0">
@@ -103,7 +103,7 @@ function HeroSection() {
             onMouseMove={handleMouseMove}
             onMouseEnter={() => setIsHovering(true)}
             onMouseLeave={handleMouseLeave}
-            className="relative w-48 h-58 md:w-90 md:h-120 rounded-full overflow-hidden border-4 border-primary/30 shadow-[0_0_20px_rgba(0,255,255,0.6)] cursor-pointer"
+            className="relative w-48 h-58 md:w-100 md:h-140 rounded-full overflow-hidden border-4 border-primary/30 shadow-[0_0_20px_rgba(0,255,255,0.6)] cursor-pointer"
           >
             <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent rounded-full" />
             <img

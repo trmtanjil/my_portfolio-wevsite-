@@ -9,7 +9,7 @@ const mylinks = [
 
 function Findme() {
   return (
-    <section id="findme" className="py-8 w-full flex justify-center items-center">
+    <section id="findme" className="pt-[60px]  w-full flex justify-center items-center">
       <div className="max-w-5xl w-full px-4 sm:px-8 text-center">
         <motion.h2 
           className="text-3xl font-bold mb-12"
@@ -22,7 +22,7 @@ function Findme() {
         </motion.h2>
 
         <div className="flex justify-center">
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-6 max-w-md sm:max-w-none">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-14 max-w-md sm:max-w-none">
             {mylinks.map((skill, index) => (
               <motion.a
                 href={skill.url}  

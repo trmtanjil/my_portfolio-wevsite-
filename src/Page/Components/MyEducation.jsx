@@ -19,7 +19,7 @@ function MyEducation() {
   ];
 
   return (
-    <section className="pt-[60px] pb-[30px] bg-secondary/30">
+    <section className="pt-[80px]   bg-secondary/30">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
             My <span className="text-primary">Education</span>
           </h2>

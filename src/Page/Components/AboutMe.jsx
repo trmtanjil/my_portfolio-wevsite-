@@ -4,7 +4,7 @@ import { Briefcase, Code, User } from "lucide-react";
 function AboutMe() {
   return (
    
-        <section id="about" className=" pt-[60px] pb-[30] px-4 relative">
+        <section id="about" className=" pt-[80px]   px-3 relative">
       {" "}
       <div className="container mx-auto  ">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
@@ -12,18 +12,18 @@ function AboutMe() {
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center text-left">
-          <div className="space-y-6">
-            <h3 className="text-2xl font-semibold">
+          <div className=" ">
+            <h3 className="text-2xl font-semibold pb-4">
               Passionate  MERN Stack Developer 
             </h3>
 
-            <p className="text-muted-foreground text-gray-300">
+            <p className="text-muted-foreground text-gray-30 pb-8">
              Hi, I’m Tanjilur Rahman — a passionate web developer with a strong focus on JavaScript and React. I love building clean, responsive, and user-friendly interfaces that provide a great user experience.
             </p>
-   <p className="text-xl font-semibold">
+   <p className="text-xl font-semibold pb-3">
     My  programming journey
    </p>
-            <p className="text-muted-foreground text-gray-300">
+            <p className="text-muted-foreground text-gray-300 pb-5">
             I started learning programming around January 16, 2024. My journey began with the motivation to explore new skills and build useful applications. Initially, I started with my first semester Python book, which gave me a strong foundation in programming logic and basic concepts.
 
 After that, I gradually learned web design using HTML and CSS, then moved on to mastering technologies like JavaScript and React. Currently, I am deeply interested in full-stack development and constantly working on new projects to improve my skills and build practical applications.
@@ -87,24 +87,24 @@ After that, I gradually learned web design using HTML and CSS, then moved on to 
       {/* Left Column */}
       <div className="w-full sm:w-[50%] space-y-1">
         <div>
-          <span className="text-xs sm:text-[10px] font-medium">Phone:</span>
-          <p className="text-xs sm:text-[10px]">+8801867913057</p>
+          <span className="font-semibold text-lg">Phone:</span>
+          <p className="text-muted-foreground  text-gray-300">+8801867913057</p>
         </div>
         <div>
-          <span className="text-xs sm:text-[10px] font-medium">Email:</span>
-          <p className="text-xs sm:text-[10px] break-all">trmtanjil02@gmail.com</p>
+          <span className="font-semibold text-lg">Email:</span>
+          <p className="text-muted-foreground  text-gray-300 break-all">trmtanjil02@gmail.com</p>
         </div>
       </div>
 
       {/* Right Column */}
       <div className="w-full sm:w-[50%] space-y-1">
         <div className="flex items-center gap-1">
-          <p className="text-xs sm:text-[13px] font-medium">Name:</p>
-          <p className="text-xs sm:text-[10px]">Tanjilur Rahman</p>
+          <p className="font-semibold text-lg">Name:</p>
+          <p className="text-muted-foreground  text-gray-300]">Tanjilur Rahman</p>
         </div>
         <div className="flex items-center gap-1">
-          <span className="text-xs sm:text-[13px] font-medium">Location:</span>
-          <p className="text-xs sm:text-[10px]">Dhaka, Bangladesh</p>
+          <span className="font-semibold text-lg">Location:</span>
+          <p className="text-muted-foreground  text-gray-300">Dhaka, Bangladesh</p>
         </div>
       </div>
     </div>
