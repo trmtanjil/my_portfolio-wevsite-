@@ -92,7 +92,7 @@ function HeroSection() {
 
   {/* Introduction */}
   <motion.p
-    className="text-lg md:text-xl text-muted-foreground w-[600px] max-w-xl text-gray-300"
+    className="text-lg md:text-xl text-muted-foreground md:w-[600px] max-w-xl text-gray-300"
     initial={{ opacity: 0, y: 20 }}
     animate={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.7, delay: 0.8 }}
@@ -119,7 +119,7 @@ function HeroSection() {
     onMouseMove={handleMouseMove}
     onMouseEnter={() => setIsHovering(true)}
     onMouseLeave={handleMouseLeave}
-    className="relative w-48 h-48 md:w-80 md:h-98 rounded-full overflow-hidden border-4 border-primary/30 shadow-[0_0_20px_rgba(0,255,255,0.6)] cursor-pointer "
+    className="relative w-48 h-60 md:w-80 md:h-98 rounded-full overflow-hidden border-4 border-primary/30 shadow-[0_0_20px_rgba(0,255,255,0.6)] cursor-pointer "
   >
     <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent rounded-full" />
     <img

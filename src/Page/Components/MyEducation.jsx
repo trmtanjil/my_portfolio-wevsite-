@@ -24,7 +24,7 @@ function MyEducation() {
             My <span className="text-primary">Education</span>
           </h2>
 
-      <div className="container mx-auto   flex flex-col md:flex-row items-center md:gap-[60px]">
+      <div className="container mx-auto   flex flex-col md:flex-row items-center md:gap-[60px] gap-3">
         {/* Left Side - Image */}
         <div className="flex-1">
           <img
