@@ -165,7 +165,7 @@ function HeroSection() {
   whileHover={{ scale: 1.1 }}
   whileTap={{ scale: 0.95 }}
   onClick={() => {
-    document.getElementById("projects")?.scrollIntoView({
+    document.getElementById("about")?.scrollIntoView({
       behavior: "smooth",
     });
   }}
