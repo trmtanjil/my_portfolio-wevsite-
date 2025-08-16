@@ -20,7 +20,7 @@ function Findme() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-         Find | Me
+         Find  Me
           <div className="my-3">
        
           </div>

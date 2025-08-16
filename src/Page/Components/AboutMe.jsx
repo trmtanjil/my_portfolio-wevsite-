@@ -29,7 +29,7 @@ function AboutMe() {
 After that, I gradually learned web design using HTML and CSS, then moved on to mastering technologies like JavaScript and React. Currently, I am deeply interested in full-stack development and constantly working on new projects to improve my skills and build practical applications.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center text-center">
               <a href="#contact" className="cosmic-button">
                 {" "}
                 Get In Touch
@@ -77,24 +77,39 @@ After that, I gradually learned web design using HTML and CSS, then moved on to 
               </div>
             </div>
             <div className="gradient-border p-6 card-hover">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <Briefcase className="h-6 w-6 text-primary" />
-                </div>
+             <div className="flex flex-col sm:flex-row items-start gap-4 w-full">
+  <div className="p-3 rounded-full bg-primary/10 mx-auto sm:mx-0">
+    <Briefcase className="h-6 w-6 text-primary" />
+  </div>
 
-                <div className="text-left">
-                 <div className="flex justify-between items-center  text-gray-300">
-                    <div  className="w-[50%]">
-                        <div><span className="  text-[10px]"> Phone : </span><p className="text-[10px]">+8801867913057</p></div>
-                        <div><span className="text-[10px]">Email : </span><p className="text-[10px]">trmtanjil02@gmail.com</p></div>
-                    </div>
-                    <div  className="w-[50%] ">
-                        <div className="flex justify-center items-center gap-1"><p className=" text-[13px]  ">Name:</p><p className=" text-[10px]  " >Tanjilur Rahman</p></div>
-                        <div className="flex justify-center items-center gap-1"><span className="   text-[13px]  ">Location:</span> <p  className=" text-[10px]  "> Dhaka, Bangladesh</p></div>
-                    </div>
-                 </div>
-                </div>
-              </div>
+  <div className="text-left w-full">
+    <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center text-gray-300 gap-2 sm:gap-4 w-full">
+      {/* Left Column */}
+      <div className="w-full sm:w-[50%] space-y-1">
+        <div>
+          <span className="text-xs sm:text-[10px] font-medium">Phone:</span>
+          <p className="text-xs sm:text-[10px]">+8801867913057</p>
+        </div>
+        <div>
+          <span className="text-xs sm:text-[10px] font-medium">Email:</span>
+          <p className="text-xs sm:text-[10px] break-all">trmtanjil02@gmail.com</p>
+        </div>
+      </div>
+
+      {/* Right Column */}
+      <div className="w-full sm:w-[50%] space-y-1">
+        <div className="flex items-center gap-1">
+          <p className="text-xs sm:text-[13px] font-medium">Name:</p>
+          <p className="text-xs sm:text-[10px]">Tanjilur Rahman</p>
+        </div>
+        <div className="flex items-center gap-1">
+          <span className="text-xs sm:text-[13px] font-medium">Location:</span>
+          <p className="text-xs sm:text-[10px]">Dhaka, Bangladesh</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
             </div>
           </div>
         </div>
