@@ -29,7 +29,7 @@ function HeroSection() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex flex-col  md:pt-[10%] items-center justify-center overflow-hidden bg-[url('/8e00e0cc-3be7-4b1f-96e5-b63ac2195fe5.png')] bg-cover bg-center pt-[20%]"
+      className="relative min-h-screen flex flex-col  md:pt-[3%] items-center justify-center overflow-hidden bg-[url('/8e00e0cc-3be7-4b1f-96e5-b63ac2195fe5.png')] bg-cover bg-center pt-[20%]" 
     >
       {/* Background */}
       <div className="absolute inset-0 overflow-hidden z-0">
@@ -74,7 +74,7 @@ function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.6 }}
           >
-            | MERN Stack Developer
+           <span className="text-primary">|</span> MERN Stack Developer
           </motion.h2>
 
           <motion.p
@@ -103,7 +103,7 @@ function HeroSection() {
             onMouseMove={handleMouseMove}
             onMouseEnter={() => setIsHovering(true)}
             onMouseLeave={handleMouseLeave}
-            className="relative w-48 h-58 md:w-80 md:h-98 rounded-full overflow-hidden border-4 border-primary/30 shadow-[0_0_20px_rgba(0,255,255,0.6)] cursor-pointer"
+            className="relative w-48 h-58 md:w-90 md:h-120 rounded-full overflow-hidden border-4 border-primary/30 shadow-[0_0_20px_rgba(0,255,255,0.6)] cursor-pointer"
           >
             <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent rounded-full" />
             <img
@@ -128,7 +128,7 @@ function HeroSection() {
           </motion.div>
 
           <div className="flex flex-col items-center space-y-4 ml-8 mt-6 md:mt-0">
-            <span className="text-gray-400 tracking-widest text-sm">FOLLOW ME ON</span>
+            
             <a
               href="https://github.com/trmtanjil"
               target="_blank"
