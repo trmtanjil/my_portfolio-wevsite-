@@ -29,7 +29,7 @@ function HeroSection() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex flex-col md:pt-24 items-center justify-center overflow-hidden bg-[url('/8e00e0cc-3be7-4b1f-96e5-b63ac2195fe5.png')] bg-cover bg-center pt-[60px]"
+      className="relative min-h-screen flex flex-col  md:pt-24 items-center justify-center overflow-hidden bg-[url('/8e00e0cc-3be7-4b1f-96e5-b63ac2195fe5.png')] bg-cover bg-center pt-[90px]"
     >
       {/* Background */}
       <div className="absolute inset-0 overflow-hidden z-0">
