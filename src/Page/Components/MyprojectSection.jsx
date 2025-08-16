@@ -58,7 +58,7 @@ function MyprojectSection() {
   };
 
   return (
-    <section id="projects" className="py-10   relative">
+    <section id="projects" className="pt-[60px] pb-[30px]   relative">
       <div className="container mx-auto  ">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
           Featured <span className="text-primary"> Projects </span>
@@ -84,7 +84,7 @@ function MyprojectSection() {
               </div>
 
               <div className="p-6">
-                <div className="flex flex-wrap gap-2 mb-4">
+                <div className="flex flex-wrap gap-2 mb-4 justify-center">
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
@@ -107,7 +107,7 @@ function MyprojectSection() {
                   View Project
                 </button>
 
-                <div className="flex justify-between items-center">
+                <div className="flex justify-center  items-center">
                   <div className="flex space-x-3">
                     <a
                       href={project.demoUrl}

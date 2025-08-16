@@ -59,10 +59,10 @@ function Contacsection() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div className="space-y-8">
-            <h3 className="text-2xl font-semibold mb-6"> Contact Information</h3>
+           
 
-            <div className="space-y-6 justify-center">
-              <div className="flex items-start space-x-4">
+            <div className="space-y-6 justify-center text-left">
+              <div className="flex items-start space-x-4 bg-card p-6 rounded-lg shadow-md border border-border card-hover">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Mail className="h-6 w-6 text-primary" />
                 </div>
@@ -77,11 +77,11 @@ function Contacsection() {
                 </div>
               </div>
 
-              <div className="flex items-start space-x-4">
+              <div className="flex items-start space-x-4 text-left bg-card p-6 rounded-lg shadow-md border border-border card-hover">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Phone className="h-6 w-6 text-primary" />
                 </div>
-                <div>
+                <div >
                   <h4 className="font-medium"> Phone</h4>
                   <a
                     href="tel:+11234567890"
@@ -92,7 +92,7 @@ function Contacsection() {
                 </div>
               </div>
 
-              <div className="flex items-start space-x-4">
+              <div className="flex items-start space-x-4 bg-card p-6 rounded-lg shadow-md border border-border card-hover">
                 <div className="p-3 rounded-full bg-primary/10">
                   <MapPin className="h-6 w-6 text-primary" />
                 </div>
@@ -105,9 +105,9 @@ function Contacsection() {
               </div>
             </div>
 
-            <div className="pt-8">
-              <h4 className="font-medium mb-4"> Connect With Me</h4>
-              <div className="flex space-x-4 justify-center">
+            <div className="pt-8 bg-card p-6 rounded-lg shadow-md border border-border card-hover">
+              <h4 className="font-medium mb-4 text-left"> Connect With Me</h4>
+              <div className="flex space-x-4  ">
                 <a
                   href="https://www.linkedin.com/in/trm-tanjil/"
                   target="_blank"

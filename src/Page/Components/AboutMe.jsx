@@ -4,7 +4,7 @@ import { Briefcase, Code, User } from "lucide-react";
 function AboutMe() {
   return (
    
-        <section id="about" className=" py-10 px-4 relative">
+        <section id="about" className=" pt-[60px] pb-[30] px-4 relative">
       {" "}
       <div className="container mx-auto  ">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
@@ -53,7 +53,7 @@ After that, I gradually learned web design using HTML and CSS, then moved on to 
                 <div className="p-3 rounded-full bg-primary/10">
                   <Code className="h-6 w-6 text-primary" />
                 </div>
-                <div className="text-left">
+                <div className="text-left md:h-[92px]">
                   <h4 className="font-semibold text-lg"> Web Development</h4>
                   <p className="text-muted-foreground text-gray-300">
                     Creating responsive websites and web applications with
@@ -67,7 +67,7 @@ After that, I gradually learned web design using HTML and CSS, then moved on to 
                 <div className="p-3 rounded-full bg-primary/10">
                   <User className="h-6 w-6 text-primary" />
                 </div>
-                <div className="text-left">
+                <div className="text-left md:h-[92px]">
                   <h4 className="font-semibold text-lg">UI/UX Design</h4>
                   <p className="text-muted-foreground  text-gray-300">
                     Designing intuitive user interfaces and seamless user
@@ -82,7 +82,7 @@ After that, I gradually learned web design using HTML and CSS, then moved on to 
     <Briefcase className="h-6 w-6 text-primary" />
   </div>
 
-  <div className="text-left w-full">
+  <div className="text-left w-full md:h-[92px]">
     <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center text-gray-300 gap-2 sm:gap-4 w-full">
       {/* Left Column */}
       <div className="w-full sm:w-[50%] space-y-1">

@@ -19,7 +19,7 @@ function MyEducation() {
   ];
 
   return (
-    <section className="pb-16 bg-secondary/30">
+    <section className="pt-[60px] pb-[30px] bg-secondary/30">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
             My <span className="text-primary">Education</span>
           </h2>
@@ -30,7 +30,7 @@ function MyEducation() {
           <img
             src="https://i.ibb.co.com/tG7MN9y/banner-webp-91e6f7b2-78f7-47b2-ad10-7d74a817fb96.jpg"
             alt="School"
-            className="rounded-lg shadow-lg object-cover w-full h-full"
+            className="rounded-lg shadow-lg object-cover w-full h-full md:h-[403px]"
           />
         </div>
 

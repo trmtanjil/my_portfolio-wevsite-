@@ -133,7 +133,7 @@ function HeroSection() {
               href="https://github.com/trmtanjil"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-blue-950-500 p-3 rounded-full text-white hover:scale-110 transition-transform"
+              className="bg-blue-950-500 p-3 rounded-full text-blacka bg-blue-700 hover:scale-110 transition-transform"
             >
               <Github />
             </a>

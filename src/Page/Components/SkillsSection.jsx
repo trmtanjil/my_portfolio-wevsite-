@@ -19,7 +19,7 @@ const skills = [
 export default function SkillsSection() {
   return (
     <section id="skills"  >
-      <div className="  mx-auto px-4 text-center">
+      <div className=" pt-[60px] pb-[30px]  mx-auto px-4 text-center">
         <motion.h2 
           className="text-3xl font-bold mb-12"
           initial={{ opacity: 0, y: 20 }}
