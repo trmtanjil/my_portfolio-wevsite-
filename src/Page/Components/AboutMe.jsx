@@ -36,7 +36,7 @@ After that, I gradually learned web design using HTML and CSS, then moved on to 
               </a>
 
              <a
-  href="https://drive.google.com/file/d/1mR8tKrTMH6s_0vAaYRpm8TXqF5k2Dfqt/view?usp=sharing"
+  href="https://drive.google.com/file/d/1pj3BJ1Z-FByEsX5YJvaPAo0WAcK0uegp/view?usp=sharing"
   className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
   download
   target="_blank"
