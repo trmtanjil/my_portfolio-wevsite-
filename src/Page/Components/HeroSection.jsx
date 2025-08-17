@@ -127,7 +127,7 @@ function HeroSection() {
             />
           </motion.div>
 
-          <div className="flex flex-col items-center space-y-4 ml-8 mt-6 md:mt-0">
+          <div className="flex md:flex-col items-center justify-center gap-4   ml-8 mt-6 md:mt-0 flex-row">
             
             <a
               href="https://github.com/trmtanjil"
@@ -156,6 +156,7 @@ function HeroSection() {
           </div>
         </div>
       </div>
+      
 <motion.div
   className="absolute left-1/2 transform -translate-x-1/2 flex flex-col items-center cursor-pointer
              bottom-[25%] md:bottom-0 z-50"
