@@ -35,15 +35,15 @@ function ThemeToggle() {
     <button
       className={cn(
         "fixed top-5 right-5 z-50 p-2 rounded-full transition-colors duration-300",
-        "focus:outline-none"
+        "focus:outline-none "
       )}
       onClick={toggleTheme}
       aria-label="Toggle Theme"
     >
       {isDarkMode ? (
-        <Sun className="h-6 w-6 text-yellow-300" />
+        <Sun />
       ) : (
-        <Moon className="h-6 w-6 text-gray-200" />
+        <Moon  />
       )}
     </button>
   );

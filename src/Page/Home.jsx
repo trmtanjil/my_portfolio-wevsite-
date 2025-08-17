@@ -18,7 +18,7 @@ function Home() {
  text-white text-foreground overflow-x-hidden '> 
 
     {/* theme toggle  */}
-   <div className='none'>
+   <div className='hidden'>
       <TheameTogle ></TheameTogle>
    </div>
 

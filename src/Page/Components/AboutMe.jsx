@@ -4,7 +4,7 @@ import { Briefcase, Code, User } from "lucide-react";
 function AboutMe() {
   return (
    
-        <section id="about" className=" pt-[80px]   px-3 relative">
+        <section id="about" className=" md:pt-[80px] pt-[60px]   px-3 relative">
       {" "}
       <div className="container mx-auto  ">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">

@@ -87,6 +87,22 @@ function HeroSection() {
             Specializing in front-end development, I build interfaces that are
             both beautiful and functional.
           </motion.p>
+            <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-start text-center ">
+              <a href="#contact" className="cosmic-button">
+                {" "}
+                Get In Touch
+              </a>
+
+             <a
+  href="https://drive.google.com/file/d/1mR8tKrTMH6s_0vAaYRpm8TXqF5k2Dfqt/view?usp=sharing"
+  className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+  download
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Download CV
+</a>
+            </div>
         </div>
 
         {/* Image and social links - now comes first in DOM order */}
