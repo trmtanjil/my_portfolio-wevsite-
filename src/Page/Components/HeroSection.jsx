@@ -159,7 +159,7 @@ function HeroSection() {
       
 <motion.div
   className="absolute left-1/2 transform -translate-x-1/2 flex flex-col items-center cursor-pointer
-             bottom-[31%] md:bottom-0 z-50"
+             bottom-[31%] md:bottom-0 z-50 my-2"
   initial={{ opacity: 0, y: 20 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ delay: 1.2 }}
@@ -171,7 +171,7 @@ function HeroSection() {
     });
   }}
 >
-  <span className="text-sm md:text-base mb-2 px-4 py-1">Scroll</span>
+  <span className="text-sm md:text-base   px-4  ">Scroll</span>
   <motion.div
     className="p-2"
     animate={{ y: [0, 12, 0] }}
