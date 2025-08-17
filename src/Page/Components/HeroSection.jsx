@@ -127,7 +127,7 @@ function HeroSection() {
             />
           </motion.div>
 
-          <div className="flex md:flex-col items-center justify-center gap-4   ml-8 mt-6 md:mt-0 flex-row">
+          <div className="flex md:flex-col items-center justify-center gap-4   ml-8 mt-6 md:mt-0 flex-row pb-3">
             
             <a
               href="https://github.com/trmtanjil"
@@ -159,7 +159,7 @@ function HeroSection() {
       
 <motion.div
   className="absolute left-1/2 transform -translate-x-1/2 flex flex-col items-center cursor-pointer
-             bottom-[31%] md:bottom-0 z-50 my-2"
+             bottom-[35%] md:bottom-0  z-50 pt-2"
   initial={{ opacity: 0, y: 20 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ delay: 1.2 }}
