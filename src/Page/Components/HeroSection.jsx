@@ -94,7 +94,7 @@ function HeroSection() {
               </a>
 
              <a
-  href="https://drive.google.com/file/d/1pj3BJ1Z-FByEsX5YJvaPAo0WAcK0uegp/view?usp=sharing"
+  href="https://drive.google.com/file/d/1pAfMK7GmTOqYcGmXSkbheUY12RuDBHqL/view?usp=sharing"
   className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
   download
   target="_blank"
@@ -175,7 +175,7 @@ function HeroSection() {
       
 <motion.div
   className="absolute left-1/2 transform -translate-x-1/2 flex flex-col items-center cursor-pointer
-             bottom-[35%] md:bottom-0  z-50 pt-2"
+             bottom-[39%] md:bottom-0  z-50 pt-2"
   initial={{ opacity: 0, y: 20 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ delay: 1.2 }}
