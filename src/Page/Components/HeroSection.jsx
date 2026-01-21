@@ -2,6 +2,7 @@ import { ArrowDown, Github } from "lucide-react";
 import { motion, useMotionValue } from "framer-motion";
 import { useState } from "react";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
+ 
 
 function HeroSection() {
   const [isHovering, setIsHovering] = useState(false);
@@ -119,13 +120,13 @@ function HeroSection() {
             onMouseMove={handleMouseMove}
             onMouseEnter={() => setIsHovering(true)}
             onMouseLeave={handleMouseLeave}
-            className="relative w-48 h-58 md:w-100 md:h-140 rounded-full overflow-hidden border-4 border-primary/30 shadow-[0_0_20px_rgba(0,255,255,0.6)] cursor-pointer"
+            className="relative w-48 h-58 md:w-100 md:h-140 rounded-full overflow-hidden border-4 border-primary/30 shadow-[0_0_20px_rgba(0,255,255,0.6)] cursor-pointer "
           >
-            <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent rounded-full" />
+            <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent rounded-full mt-8 md:mt-0 " />
             <img
-              src="https://i.ibb.co.com/r219bmrg/472793938-525303010521312-3168934761762375498-n.jpg"
+              src="/skills/notime.png"
               alt="Tanjilur Rahman"
-              className="w-full h-full object-cover object-center"
+              className="w-full h-full object-cover object-center "
               style={{ transform: "translateZ(20px)" }}
             />
             <motion.div

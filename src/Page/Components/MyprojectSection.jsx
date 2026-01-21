@@ -12,7 +12,7 @@ const projects = [
     image: "https://i.ibb.co.com/39XZGF08/Screenshot-62.png",
     tags: ["React.js", "React Router", "Tailwind CSS", "DaisyUI", "React Hook Form", "Axios", "SweetAlert2"," React Motion"," Chart.js" , "Recharts"],
      tagsback: ["Node.js", "Express.js", "MongoDB", "Native Driver", "Dotenv", "CORS"," imgbb API", "JWT"],
-    demoUrl: "https://scintillating-salmiakki-2da397.netlify.app/",
+    demoUrl: "https://scholership-app97.netlify.app/",
     githubUrl: "https://github.com/trmtanjil/scholarship-hub#",
     detailsImg: [
      "https://i.ibb.co.com/KjcJxBf7/Screenshot-89-Copy.png",
