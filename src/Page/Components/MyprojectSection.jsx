@@ -4,6 +4,27 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
+    id: 4,
+    title: "Medicare ",
+    description:
+      "This website is designed for students, where they can find, apply for, and track their applications to different national and international scholarships",
+    details: `This is a full-stack scholarship management platform that allows students to search for scholarships worldwide, apply online, track application status, and receive notifications. Features include user authentication, admin dashboard, and Stripe payment integration.`,
+    image: "https://i.ibb.co.com/39XZGF08/Screenshot-62.png",
+    tags: ["Next.js", "TypeScript", "better auth","Tailwind CSS", "shadcn/ui", "lucide react",    "fremer motion", ],
+     tagsback: ["Node.js", "Express.js", "TypeScript", "prisma","postgresql","better auth", "Dotenv", "CORS"],
+    demoUrl: "https://next-js-frontend-ass-4.vercel.app/",
+    githubUrl: "https://github.com/trmtanjil/NextJs-frontend-ass-4",
+    githubUrlback: "https://github.com/trmtanjil/medicareshope",
+    detailsImg: [
+     "https://i.ibb.co.com/KjcJxBf7/Screenshot-89-Copy.png",
+"https://i.ibb.co.com/0jGNX4w7/Screenshot-90.png",
+"https://i.ibb.co.com/1JnN0v3L/Screenshot-91.png",
+"https://i.ibb.co.com/r9sJd9n/Screenshot-92.png",
+"https://i.ibb.co.com/Jj3YGW1L/Screenshot-93.png",
+"https://i.ibb.co.com/yTcN9gg/Screenshot-95.png",
+    ],
+  },
+  {
     id: 1,
     title: "scholarship-hub",
     description:
@@ -167,6 +188,14 @@ const handleViewProject = (project) => {
                     </a>
                     <a
                       href={project.githubUrl}
+                      target="_blank"
+                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                      rel="noopener noreferrer"
+                    >
+                      <Github size={20} />
+                    </a>
+                    <a
+                      href={project.githubUrlback}
                       target="_blank"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                       rel="noopener noreferrer"
