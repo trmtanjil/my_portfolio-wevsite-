@@ -7,21 +7,20 @@ const projects = [
     id: 4,
     title: "Medicare ",
     description:
-      "This website is designed for students, where they can find, apply for, and track their applications to different national and international scholarships",
-    details: `This is a full-stack scholarship management platform that allows students to search for scholarships worldwide, apply online, track application status, and receive notifications. Features include user authentication, admin dashboard, and Stripe payment integration.`,
-    image: "https://i.ibb.co.com/39XZGF08/Screenshot-62.png",
-    tags: ["Next.js", "TypeScript", "better auth","Tailwind CSS", "shadcn/ui", "lucide react",    "fremer motion", ],
-     tagsback: ["Node.js", "Express.js", "TypeScript", "prisma","postgresql","better auth", "Dotenv", "CORS"],
+      "Medicare Shop is a state-of-the-art and professional multi-vendor online pharmacy platform. It is designed in such a way that users can easily find medicines and healthcare products and admins can control the entire system.",
+    details: `Medicare Shop - Full-Stack Online Pharmacy Platform
+Medicare Shop is a modern e-commerce platform specifically designed for selling medicines and healthcare products. It follows a Role-Based Access Control (RBAC) system, with separate dashboards and functionalities for admin, sellers, and customers.`,
+    image: "/projectimage/medicare.png",
+    tags: ["Next.js", "TypeScript", "better auth", "Tailwind CSS", "shadcn/ui", "lucide react", "fremer motion",],
+    tagsback: ["Node.js", "Express.js", "TypeScript", "prisma", "postgresql", "better auth", "Dotenv", "CORS"],
     demoUrl: "https://next-js-frontend-ass-4.vercel.app/",
     githubUrl: "https://github.com/trmtanjil/NextJs-frontend-ass-4",
     githubUrlback: "https://github.com/trmtanjil/medicareshope",
     detailsImg: [
-     "https://i.ibb.co.com/KjcJxBf7/Screenshot-89-Copy.png",
-"https://i.ibb.co.com/0jGNX4w7/Screenshot-90.png",
-"https://i.ibb.co.com/1JnN0v3L/Screenshot-91.png",
-"https://i.ibb.co.com/r9sJd9n/Screenshot-92.png",
-"https://i.ibb.co.com/Jj3YGW1L/Screenshot-93.png",
-"https://i.ibb.co.com/yTcN9gg/Screenshot-95.png",
+      "projectimage/medicare1.png",
+      "projectimage/medicare2.png",
+      "projectimage/medicare3.png",
+      "projectimage/medicare4.png",
     ],
   },
   {
@@ -31,17 +30,17 @@ const projects = [
       "This website is designed for students, where they can find, apply for, and track their applications to different national and international scholarships",
     details: `This is a full-stack scholarship management platform that allows students to search for scholarships worldwide, apply online, track application status, and receive notifications. Features include user authentication, admin dashboard, and Stripe payment integration.`,
     image: "https://i.ibb.co.com/39XZGF08/Screenshot-62.png",
-    tags: ["React.js", "React Router", "Tailwind CSS", "DaisyUI", "React Hook Form", "Axios", "SweetAlert2"," React Motion"," Chart.js" , "Recharts"],
-     tagsback: ["Node.js", "Express.js", "MongoDB", "Native Driver", "Dotenv", "CORS"," imgbb API", "JWT"],
+    tags: ["React.js", "React Router", "Tailwind CSS", "DaisyUI", "React Hook Form", "Axios", "SweetAlert2", " React Motion", " Chart.js", "Recharts"],
+    tagsback: ["Node.js", "Express.js", "MongoDB", "Native Driver", "Dotenv", "CORS", " imgbb API", "JWT"],
     demoUrl: "https://scholership-app97.netlify.app/",
     githubUrl: "https://github.com/trmtanjil/scholarship-hub#",
     detailsImg: [
-     "https://i.ibb.co.com/KjcJxBf7/Screenshot-89-Copy.png",
-"https://i.ibb.co.com/0jGNX4w7/Screenshot-90.png",
-"https://i.ibb.co.com/1JnN0v3L/Screenshot-91.png",
-"https://i.ibb.co.com/r9sJd9n/Screenshot-92.png",
-"https://i.ibb.co.com/Jj3YGW1L/Screenshot-93.png",
-"https://i.ibb.co.com/yTcN9gg/Screenshot-95.png",
+      "https://i.ibb.co.com/KjcJxBf7/Screenshot-89-Copy.png",
+      "https://i.ibb.co.com/0jGNX4w7/Screenshot-90.png",
+      "https://i.ibb.co.com/1JnN0v3L/Screenshot-91.png",
+      "https://i.ibb.co.com/r9sJd9n/Screenshot-92.png",
+      "https://i.ibb.co.com/Jj3YGW1L/Screenshot-93.png",
+      "https://i.ibb.co.com/yTcN9gg/Screenshot-95.png",
     ],
   },
   {
@@ -51,13 +50,13 @@ const projects = [
       "A streamlined Tutor Finder web application built with React and Tailwind CSS. Helps students connect with qualified tutors based on subject, availability, and location",
     details: `This app lets students search for tutors by subject and location. Tutors can register and manage their profiles. Features include search filters, booking system, and responsive UI.`,
     image: "https://i.ibb.co.com/G45q8zdK/Screenshot-74.png",
-    tags: ["React.js", "React Router", "Tailwind CSS", "DaisyUI", "React Hook Form", "Axios", "SweetAlert2"," React Motion"," Chart.js" ],
+    tags: ["React.js", "React Router", "Tailwind CSS", "DaisyUI", "React Hook Form", "Axios", "SweetAlert2", " React Motion", " Chart.js"],
     demoUrl: "https://effortless-froyo-5b0e47.netlify.app/",
     githubUrl: "https://github.com/trmtanjil/tutor-hub-clind",
     detailsImg: [
-   "   https://i.ibb.co.com/XkXwyGZW/Screenshot-96.png",
-"https://i.ibb.co.com/B5m12T0n/Screenshot-97.png",
-"https://i.ibb.co.com/VYHSbCPG/Screenshot-98.png",
+      "   https://i.ibb.co.com/XkXwyGZW/Screenshot-96.png",
+      "https://i.ibb.co.com/B5m12T0n/Screenshot-97.png",
+      "https://i.ibb.co.com/VYHSbCPG/Screenshot-98.png",
     ],
   },
   {
@@ -67,7 +66,7 @@ const projects = [
       "Roomet Finder is a user-friendly web application that helps individuals find compatible roommates based on location, budget, and preferences",
     details: `Roomet Finder helps users find roommates matching their budget and preferences. Users can create profiles, browse listings, and communicate with potential roommates.`,
     image: "https://i.ibb.co.com/q39n7kg7/Screenshot-75.png",
-    tags: ["React.js", "React Router", "Tailwind CSS", "DaisyUI",   "SweetAlert2"," React Motion"," Chart.js" ],
+    tags: ["React.js", "React Router", "Tailwind CSS", "DaisyUI", "SweetAlert2", " React Motion", " Chart.js"],
     demoUrl: "https://precious-hotteok-ea707d.netlify.app/",
     githubUrl: "https://github.com/trmtanjil/rommet-finder-clind",
     detailsImg: [
@@ -83,10 +82,10 @@ const projects = [
 
 function MyprojectSection() {
   // View Project button click handler
-const handleViewProject = (project) => {
-  Swal.fire({
-    title: project.title,
-    html: `
+  const handleViewProject = (project) => {
+    Swal.fire({
+      title: project.title,
+      html: `
       <div class="swal-project-container">
         <img src="${project.image}" alt="${project.title}" class="swal-main-image" />
         <p class="swal-description">${project.description}</p>
@@ -99,8 +98,8 @@ const handleViewProject = (project) => {
         <div class="swal-details-container grid grid-cols-2 md:grid-cols-3 gap-3">
           ${project.detailsImg.map((img, index) => `
             <div class="swal-image-wrapper mt-4">
-              <img src="${img}" alt="Screenshot ${index+1}" class="swal-detail-image rounded-lg cursor-pointer" onclick="window.open('${img}')" />
-              <p class="swal-image-title text-sm mt-1">Screenshot ${index+1}</p>
+              <img src="${img}" alt="Screenshot ${index + 1}" class="swal-detail-image rounded-lg cursor-pointer" onclick="window.open('${img}')" />
+              <p class="swal-image-title text-sm mt-1">Screenshot ${index + 1}</p>
             </div>
           `).join("")}
         </div>
@@ -111,16 +110,16 @@ const handleViewProject = (project) => {
         </div>
       </div>
     `,
-    showCloseButton: true,
-    focusConfirm: false,
-    confirmButtonText: "Close",
-    width: "800px",
-    customClass: {
-      popup: "swal-project-popup",
-      htmlContainer: "swal-html-container",
-    },
-  });
-};
+      showCloseButton: true,
+      focusConfirm: false,
+      confirmButtonText: "Close",
+      width: "800px",
+      customClass: {
+        popup: "swal-project-popup",
+        htmlContainer: "swal-html-container",
+      },
+    });
+  };
 
 
   return (
@@ -192,6 +191,7 @@ const handleViewProject = (project) => {
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                       rel="noopener noreferrer"
                     >
+                      <p>Frontend</p>
                       <Github size={20} />
                     </a>
                     <a
@@ -200,6 +200,7 @@ const handleViewProject = (project) => {
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                       rel="noopener noreferrer"
                     >
+                      <p>Backend</p>
                       <Github size={20} />
                     </a>
                   </div>

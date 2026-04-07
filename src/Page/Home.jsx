@@ -1,5 +1,8 @@
-   import Background from './Components/Background'
-  import TheameTogle from './Components/TheameTogle'
+import React, { useEffect } from 'react'
+import Lenis from 'lenis'
+import 'lenis/dist/lenis.css'
+import Background from './Components/Background'
+import TheameTogle from './Components/TheameTogle'
 import { Navbar } from './Components/Navbar'
 import HeroSection from './Components/HeroSection'
 import AboutMe from './Components/AboutMe'
@@ -11,6 +14,21 @@ import { Footer } from './Components/Footer'
 import MyEducation from './Components/MyEducation'
 
 const Home = () => {
+  useEffect(() => {
+    const lenis = new Lenis()
+
+    function raf(time) {
+      lenis.raf(time)
+      requestAnimationFrame(raf)
+    }
+
+    requestAnimationFrame(raf)
+
+    return () => {
+      lenis.destroy()
+    }
+  }, [])
+
   return (
     <div>
       {/* Navbar / Hero / Skills Section */}

@@ -3,15 +3,16 @@ import SkillsTitle from "./SkillsTitle";
 import { Link } from "react-router"; // Ensure this matches your router version (react-router or react-router-dom)
 
 const skills = [
-  { name: "SECURITY", img: "/public/skills/security.png", path: "/security", color: "rgba(100, 116, 139, 0.8)" },
+  { name: "JavaScript", img: "/skills/js.png", path: "/javascript", color: "rgba(247, 223, 30, 0.8)" },
+  { name: "Next.js", img: "/skills/next.png", path: "/nextjs", color: "rgba(0, 0, 0, 0.8)" },
+  { name: "TypeScript", img: "/skills/TypeScript.png", path: "/TypeScript", color: "rgba(51, 140, 234, 0.8)" },
   { name: "DSA", img: "/skills/dsa.png", path: "/dsa", color: "rgba(147, 51, 234, 0.8)" },
   { name: "Prisma", img: "/skills/prismaormimage.png", path: "/prisma", color: "rgba(45, 55, 72, 0.8)" },
   { name: "Express", img: "/skills/express.png", path: "/express", color: "rgba(0, 0, 0, 0.8)" },
-  { name: "JavaScript", img: "/skills/js.png", path: "/javascript", color: "rgba(247, 223, 30, 0.8)" },
   { name: "React", img: "/skills/react.png", path: "/react", color: "rgba(97, 218, 251, 0.8)" },
-  { name: "Next.js", img: "/skills/next.png", path: "/nextjs", color: "rgba(0, 0, 0, 0.8)" },
   { name: "MongoDB", img: "/skills/mongo.png", path: "/mongodb", color: "rgba(71, 162, 72, 0.8)" },
   { name: "PostgreSQL", img: "/skills/PostgreSQL.webp", path: "/postgresql", color: "rgba(51, 103, 145, 0.8)" },
+  { name: "SECURITY", img: "/public/skills/security.png", path: "/security", color: "rgba(100, 116, 139, 0.8)" },
   { name: "Firebase", img: "/skills/firebase.png", path: "/firebase", color: "rgba(255, 202, 40, 0.8)" },
   { name: "HTML5", img: "/skills/html.png", path: "/html", color: "rgba(227, 79, 38, 0.8)" },
   { name: "CSS3", img: "/skills/css.png", path: "/css", color: "rgba(21, 114, 182, 0.8)" },
@@ -24,7 +25,7 @@ export default function SkillsSection() {
   return (
     <section id="skills">
       <div className="pt-[80px] mx-auto px-4 text-center">
-        <motion.h2 
+        <motion.h2
           className="text-3xl font-bold mb-12"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -84,7 +85,7 @@ export default function SkillsSection() {
                     className="w-12 h-12 object-contain z-10"
                   />
                 </motion.div>
-                
+
                 {/* Skill Name - added a hover effect color */}
                 <span className="mt-2 text-sm md:text-base group-hover:text-white transition-colors duration-300">
                   {skill.name}
