@@ -67,7 +67,7 @@ Medicare Shop is a modern e-commerce platform specifically designed for selling 
     details: `Roomet Finder helps users find roommates matching their budget and preferences. Users can create profiles, browse listings, and communicate with potential roommates.`,
     image: "https://i.ibb.co.com/q39n7kg7/Screenshot-75.png",
     tags: ["React.js", "React Router", "Tailwind CSS", "DaisyUI", "SweetAlert2", " React Motion", " Chart.js"],
-    demoUrl: "https://precious-hotteok-ea707d.netlify.app/",
+    demoUrl: "https://my-first-shopiffy.myshopify.com/",
     githubUrl: "https://github.com/trmtanjil/rommet-finder-clind",
     detailsImg: [
       "https://ibb.co.com/C5pfK4Yv",

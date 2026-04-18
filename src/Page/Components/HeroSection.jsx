@@ -95,7 +95,7 @@ function HeroSection() {
               </a>
 
              <a
-  href="https://drive.google.com/file/d/1pAfMK7GmTOqYcGmXSkbheUY12RuDBHqL/view?usp=sharing"
+  href="https://drive.google.com/file/d/1A1f4XseUnyte8NgBDZ-KucY6pyNMJ0I-/view?usp=sharing"
   className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
   download
   target="_blank"
